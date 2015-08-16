@@ -1,0 +1,268 @@
+{
+  "Homo sapiens": {
+    "Jeck 2013": {
+      "all": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Jeck2013.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Jeck2013.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Jeck2013.bed"
+      }, 
+      "Hs68_control": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Jeck2013_Hs68_control.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Jeck2013_Hs68_control.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Jeck2013_Hs68_control.bed"
+      }, 
+      "Hs68_RNase": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Jeck2013_Hs68_RNase.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Jeck2013_Hs68_RNase.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Jeck2013_Hs68_RNase.bed"
+      }
+    }, 
+    "Zhang 2013": {
+      "all": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Zhang2013_H9.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Zhang2013_H9.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Zhang2013_H9.bed"
+      }, 
+      "H9": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Zhang2013_H9.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Zhang2013_H9.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Zhang2013_H9.bed"
+      }
+    }, 
+    "all": {
+      "xlsx": "http://www.circbase.org/download/hsa_hg19_circRNA.xlsx", 
+      "txt": "http://www.circbase.org/download/hsa_hg19_circRNA.txt", 
+      "bed": "http://www.circbase.org/download/hsa_hg19_circRNA.bed"
+    }, 
+    "Salzman 2013": {
+      "HepG2": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Hepg2.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Hepg2.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Hepg2.bed"
+      }, 
+      "all": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013.bed"
+      }, 
+      "HUVEC": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Huvec.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Huvec.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Huvec.bed"
+      }, 
+      "NHEK": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Nhek.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Nhek.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Nhek.bed"
+      }, 
+      "K562": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_K562.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_K562.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_K562.bed"
+      }, 
+      "HMEC": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Hmec.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Hmec.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Hmec.bed"
+      }, 
+      "MCF-7": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Mcf7.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Mcf7.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Mcf7.bed"
+      }, 
+      "AG04450": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Ag04450.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Ag04450.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Ag04450.bed"
+      }, 
+      "H1-hESC": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_H1hesc.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_H1hesc.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_H1hesc.bed"
+      }, 
+      "BJ": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Bj.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Bj.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Bj.bed"
+      }, 
+      "HSMM": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Hsmm.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Hsmm.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Hsmm.bed"
+      }, 
+      "GM12878": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Gm12878.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Gm12878.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Gm12878.bed"
+      }, 
+      "SK-N-SH RA": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Sknshra.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Sknshra.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Sknshra.bed"
+      }, 
+      "NHLF": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Nhlf.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Nhlf.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Nhlf.bed"
+      }, 
+      "HeLa S3": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Helas3.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Helas3.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_Helas3.bed"
+      }, 
+      "A549": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Salzman2013_A549.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Salzman2013_A549.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Salzman2013_A549.bed"
+      }
+    }, 
+    "Memczak 2013": {
+      "all": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Memczak2013.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Memczak2013.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Memczak2013.bed"
+      }, 
+      "HEK293": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Memczak2013_HEK293.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Memczak2013_HEK293.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Memczak2013_HEK293.bed"
+      }, 
+      "Neutrophils": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Memczak2013_neutr.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Memczak2013_neutr.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Memczak2013_neutr.bed"
+      }, 
+      "CD34+": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Memczak2013_cd_34.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Memczak2013_cd_34.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Memczak2013_cd_34.bed"
+      }, 
+      "CD19+": {
+        "xlsx": "http://www.circbase.org/download/hsa_hg19_Memczak2013_cd_19.xlsx", 
+        "txt": "http://www.circbase.org/download/hsa_hg19_Memczak2013_cd_19.txt", 
+        "bed": "http://www.circbase.org/download/hsa_hg19_Memczak2013_cd_19.bed"
+      }
+    }
+  }, 
+  "Latimeria menadoensis": {
+    "all": {
+      "xlsx": "http://www.circbase.org/download/lme_latCha1_Nitsche2013.xlsx", 
+      "txt": "http://www.circbase.org/download/lme_latCha1_Nitsche2013.txt", 
+      "bed": "http://www.circbase.org/download/lme_latCha1_Nitsche2013.bed"
+    }, 
+    "Nitsche 2013": {
+      "all": {
+        "xlsx": "http://www.circbase.org/download/lme_latCha1_Nitsche2013.xlsx", 
+        "txt": "http://www.circbase.org/download/lme_latCha1_Nitsche2013.txt", 
+        "bed": "http://www.circbase.org/download/lme_latCha1_Nitsche2013.bed"
+      }, 
+      "liver": {
+        "xlsx": "http://www.circbase.org/download/lme_latCha1_Nitsche2013_liver.xlsx", 
+        "txt": "http://www.circbase.org/download/lme_latCha1_Nitsche2013_liver.txt", 
+        "bed": "http://www.circbase.org/download/lme_latCha1_Nitsche2013_liver.bed"
+      }, 
+      "estis": {
+        "xlsx": "http://www.circbase.org/download/lme_latCha1_Nitsche2013_liver.xlsx", 
+        "txt": "http://www.circbase.org/download/lme_latCha1_Nitsche2013_liver.txt", 
+        "bed": "http://www.circbase.org/download/lme_latCha1_Nitsche2013_testis.bed"
+      }
+    }
+  }, 
+  "Mus musculus": {
+    "all": {
+      "xlsx": "http://www.circbase.org/download/mmu_mm9_circRNA.xlsx", 
+      "txt": "http://www.circbase.org/download/mmu_mm9_circRNA.txt", 
+      "bed": "http://www.circbase.org/download/mmu_mm9_circRNA.bed"
+    }, 
+    "Memczak 2013": {
+      "brain2": {
+        "xlsx": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_brain2.xlsx", 
+        "txt": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_brain2.txt", 
+        "bed": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_brain2.bed"
+      }, 
+      "all": {
+        "xlsx": "http://www.circbase.org/download/mmu_mm9_Memczak2013.xlsx", 
+        "txt": "http://www.circbase.org/download/mmu_mm9_Memczak2013.txt", 
+        "bed": "http://www.circbase.org/download/mmu_mm9_Memczak2013.bed"
+      }, 
+      "brain1": {
+        "xlsx": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_brain1.xlsx", 
+        "txt": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_brain1.txt", 
+        "bed": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_brain1.bed"
+      }, 
+      "hea": {
+        "xlsx": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_head.xlsx", 
+        "txt": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_head.txt", 
+        "bed": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_head.bed"
+      }, 
+      "ES": {
+        "xlsx": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_ES.xlsx", 
+        "txt": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_ES.txt", 
+        "bed": "http://www.circbase.org/download/mmu_mm9_Memczak2013_mm_ES.bed"
+      }
+    }
+  }, 
+  "Caenorhabditis elegans": {
+    "all": {
+      "xlsx": "http://www.circbase.org/download/cel_ce6_Memczak2013.xlsx", 
+      "txt": "http://www.circbase.org/download/cel_ce6_Memczak2013.txt", 
+      "bed": "http://www.circbase.org/download/cel_ce6_circRNA.bed"
+    }, 
+    "Memczak 2013": {
+      "sperm": {
+        "xlsx": "http://www.circbase.org/download/cel_ce6_Memczak2013_sperm.xlsx", 
+        "txt": "http://www.circbase.org/download/cel_ce6_Memczak2013_sperm.txt", 
+        "bed": "http://www.circbase.org/download/cel_ce6_Memczak2013_sperm.bed"
+      }, 
+      "all": {
+        "xlsx": "http://www.circbase.org/download/cel_ce6_Memczak2013.xlsx", 
+        "txt": "http://www.circbase.org/download/cel_ce6_Memczak2013.txt", 
+        "bed": "http://www.circbase.org/download/cel_ce6_Memczak2013.bed"
+      }, 
+      "spe9": {
+        "xlsx": "http://www.circbase.org/download/cel_ce6_Memczak2013_spe9.xlsx", 
+        "txt": "http://www.circbase.org/download/cel_ce6_Memczak2013_spe9.txt", 
+        "bed": "http://www.circbase.org/download/cel_ce6_Memczak2013_spe9.bed"
+      }, 
+      "sperm_ac": {
+        "xlsx": "http://www.circbase.org/download/cel_ce6_Memczak2013_sperm_act.xlsx", 
+        "txt": "http://www.circbase.org/download/cel_ce6_Memczak2013_sperm_act.txt", 
+        "bed": "http://www.circbase.org/download/cel_ce6_Memczak2013_sperm_act.bed"
+      }, 
+      "fem1": {
+        "xlsx": "http://www.circbase.org/download/cel_ce6_Memczak2013_fem1.xlsx", 
+        "txt": "http://www.circbase.org/download/cel_ce6_Memczak2013_fem1.txt", 
+        "bed": "http://www.circbase.org/download/cel_ce6_Memczak2013_fem1.bed"
+      }, 
+      "2cell": {
+        "xlsx": "http://www.circbase.org/download/cel_ce6_Memczak2013_2cell.xlsx", 
+        "txt": "http://www.circbase.org/download/cel_ce6_Memczak2013_2cell.txt", 
+        "bed": "http://www.circbase.org/download/cel_ce6_Memczak2013_2cell.bed"
+      }, 
+      "1cell": {
+        "xlsx": "http://www.circbase.org/download/cel_ce6_Memczak2013_1cell.xlsx", 
+        "txt": "http://www.circbase.org/download/cel_ce6_Memczak2013_1cell.txt", 
+        "bed": "http://www.circbase.org/download/cel_ce6_Memczak2013_1cell.bed"
+      }
+    }
+  }, 
+  "Latimeria chalumnae": {
+    "all": {
+      "xlsx": "http://www.circbase.org/download/lcm_latCha1_Nitsche2013.xlsx", 
+      "txt": "http://www.circbase.org/download/lcm_latCha1_Nitsche2013.txt", 
+      "bed": "http://www.circbase.org/download/lcm_latCha1_Nitsche2013.bed"
+    }, 
+    "Nitsche 2013": {
+      "all": {
+        "xlsx": "http://www.circbase.org/download/lcm_latCha1_Nitsche2013.xlsx", 
+        "txt": "http://www.circbase.org/download/lcm_latCha1_Nitsche2013.txt", 
+        "bed": "http://www.circbase.org/download/lcm_latCha1_Nitsche2013.bed"
+      }, 
+      "muscle": {
+        "xlsx": "http://www.circbase.org/download/lcm_latCha1_Nitsche2013_muscle.xlsx", 
+        "txt": "http://www.circbase.org/download/lcm_latCha1_Nitsche2013_muscle.txt", 
+        "bed": "http://www.circbase.org/download/lcm_latCha1_Nitsche2013_muscle.bed"
+      }
+    }
+  }
+}
