@@ -100,7 +100,8 @@ def get_refflat():
 
 
 if __name__ == '__main__':
-    circ_data = fetch_circ_data(fetch_db_name('Homo sapiens', 'all'), 'hsa_circ_0002333')
+    cid = raw_input("Please Enter circular RNA ID:")
+    circ_data = fetch_circ_data(fetch_db_name('Homo sapiens', 'all'), cid)
     offset = 200
     raw_anno = fetch_annotation(circ_data)
     cs = int(circ_data['start'])
