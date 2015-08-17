@@ -4,7 +4,7 @@ import os.path
 import gzip
 import urllib2
 import json
-from Bio.Seq import Seq
+from Bio import Seq
 from access_p3p_selenium import scrap_p3p
 
 datadir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data')
