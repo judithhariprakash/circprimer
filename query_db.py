@@ -4,6 +4,8 @@ import os.path
 import gzip
 import urllib2
 import json
+from Bio.Seq import Seq
+from access_p3p_selenium import scrap_p3p
 
 datadir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data')
 
@@ -22,9 +24,25 @@ def fetch_circ_data(filename, id):
     return data[id][0]
 
 
-def get_circ_sequence(assembly, circ_data):
-    print get_seq_from_das(assembly, circ_data['chrom'],
-                           int(circ_data['start']), int(circ_data['end']))
+def get_circ_sequence(assembly, circ_data, offset=200):
+    if circ_data['strand'] == "+":
+        start1 = int(circ_data['end']) - offset
+        end1 = int(circ_data['end'])
+        start2 = int(circ_data['start'])
+        end2 = int(circ_data['start']) + offset
+        seq1 = get_seq_from_das(assembly, circ_data['chrom'], start1, end1)
+        seq2 = get_seq_from_das(assembly, circ_data['chrom'], start2, end2)
+    elif circ_data['strand'] == "-":
+        start1 = int(circ_data['start'])
+        end1 = int(circ_data['start']) + offset
+        start2 = int(circ_data['end']) - offset
+        end2 = int(circ_data['end'])
+        seq1_rc = get_seq_from_das(assembly, circ_data['chrom'], start1, end1)
+        seq2_rc = get_seq_from_das(assembly, circ_data['chrom'], start2, end2)
+        seq1 = str(Seq(seq1_rc).reverse_complement())
+        seq2_rc = get_seq_from_das(assembly, circ_data['chrom'], start2, end2)
+        seq2 = str(Seq(seq2_rc).reverse_complement())
+    return seq1+seq2
 
 
 def get_seq_from_das(assembly, chromosome, start, end):
@@ -82,8 +100,8 @@ def get_refflat():
 
 
 if __name__ == '__main__':
-    circ_data = fetch_circ_data(fetch_db_name('Homo sapiens', 'all'), 'hsa_circ_0023382')
-    #get_circ_sequence('hg19', circ_data)
+    circ_data = fetch_circ_data(fetch_db_name('Homo sapiens', 'all'), 'hsa_circ_0002333')
+    offset = 200
     raw_anno = fetch_annotation(circ_data)
     cs = int(circ_data['start'])
     ce = int(circ_data['end'])
@@ -108,6 +126,8 @@ if __name__ == '__main__':
                 print 'Yes'
             else:
                 print 'No'
-
+    sequence = get_circ_sequence('hg19', circ_data, offset)
+    target = "%d,%d" % (offset, 10)
+    print scrap_p3p(sequence, target)
 
 

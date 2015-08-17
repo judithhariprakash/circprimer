@@ -34,7 +34,9 @@ def fetch_data(organism, study='all', sample='all', fileformat='bed'):
                                                                                           datadir)
                     else:
                         print "Downloading file %s" % link.split('/')[-1]
-                        response = urllib2.urlopen(link).read()
+                        req = urllib2.Request(link, headers={'User-Agent' : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML, like Gecko) Ubuntu/14.04 Chromium/12.0.742.112 Chrome/12.0.742.112 Safari/534.30"})
+                        con = urllib2.urlopen(req)
+                        response = con.read()
                         if not os.path.exists(datadir):
                             os.makedirs(datadir)
                         with open(filename, 'w') as out:
