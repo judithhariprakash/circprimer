@@ -8,7 +8,7 @@ def scrap_p3p(sequence, target):
         display = Display(visible=0, size=(800, 600))
         display.start()
         driver = webdriver.Firefox()
-        try: 
+        try:
             driver.get("http://www.bioinformatics.nl/cgi-bin/primer3plus/primer3plus.cgi")
             elem_seq = driver.find_element_by_name("SEQUENCE")
             elem_seq.send_keys(sequence)
@@ -16,7 +16,7 @@ def scrap_p3p(sequence, target):
             elem_seq.send_keys(target)
             elem_pp = driver.find_element_by_name("Pick_Primers")
             elem_pp.send_keys(Keys.RETURN)
-            
+
             for num, i in enumerate(range(0,10,2)):
                 elem_f = driver.find_element_by_name("PRIMER_%d_SEQUENCE" % i)
                 j=i+1
@@ -24,7 +24,7 @@ def scrap_p3p(sequence, target):
                 m=num+1
                 result['primer_set_%d' % m] = {'forward_sequence': str(elem_f.get_attribute("value")),
                                                'reverse_sequence': str(elem_r.get_attribute("value"))}
-            
+
             ctr=1
             x = 'f'
             all_options = driver.find_elements_by_xpath("//td")
@@ -54,5 +54,5 @@ def scrap_p3p(sequence, target):
             driver.close()
     finally:
         display.stop()
-    
+
     return result
