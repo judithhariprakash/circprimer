@@ -28,25 +28,30 @@ def rev_comp(seq_part, strand):
         return str(Seq(seq_part).reverse_complement())
 
 def join_seq(circ_id, seq_rc, strand):
-    #temp = {}
+    temp = {}
+    seq1 = ""
     seq = ""
     cid = ""
     for line in circ_id:
         cols = circ_id.split('_')
-# how to access the second line of the bed file to compare the cid to join the sequence
+# how to access the second line of the bed file to compare the cid to join the sequence??
         cid = cols[0]+ "_" + cols[1]+ "_" +cols[2]
         if cols[3] == '1':
-            seq = seq_rc
-            print cid, seq
+            seq1 = seq_rc
+            print cid, seq1
             break
         elif cols[3] == '2':
-            pass
+            seq = seq1 + seq_rc
+            break
+        temp[cid] = seq
+        print temp
 
 if __name__ == '__main__':
     file =  open ('hg19_all_templates.bed', 'r')
     template = {}
 # Opens the bed file of backsplice, assigns the co-ordinates and calls the das assembly function to obtain the sequence
     for n, line in enumerate(file):
+        print line
         #print n,
         cols = line.rstrip('\n').split('\t')
         chrom = cols[0]
@@ -58,3 +63,5 @@ if __name__ == '__main__':
         seq_rc = rev_comp(seq_part, strand)
         join_seq(circ_id,seq_rc, strand)
         break
+
+
