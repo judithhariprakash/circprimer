@@ -53,16 +53,17 @@ def multiprocess_wrapper(circ_id):
 
 
 if __name__ == '__main__':
+	cores = int(sys.argv[1])
 	result = {}
 	skipped_ids = []
-	pool = Pool(processes=4)
+	pool = Pool(processes=cores)
 	print len(data)
 	id_list = []
 	for n,circ_id in enumerate(data):
 		print "\r %d" % n,
 		sys.stdout.flush()
 		id_list.append(circ_id)
-		if len(id_list) == 4:
+		if len(id_list) == cores:
 			parsed_outputs = pool.map(multiprocess_wrapper, id_list)
 			for cid, output in zip(id_list, parsed_outputs):
 				if output is not False:
@@ -70,6 +71,13 @@ if __name__ == '__main__':
 				else:
 					skipped_ids.append(cid)
 			id_list = []
+	if len(id_list)>0:
+		for cid in id_list:
+			output = multiprocess_wrapper(cid)
+			if output is not False:
+				result[cid] = output
+			else:
+				skipped_ids.append(cid)
 	with open('hg19_circ_primers.json', 'w') as outfile:
 		json.dump(result, outfile, indent=2)
 	print "%d IDs skipped" % len(skipped_ids)
