@@ -1,5 +1,5 @@
 from flask_wtf import Form
-from wtforms import SelectField, StringField
+from wtforms import SelectField, StringField, TextAreaField
 
 class SearchForm(Form):
-    circ_id = SelectField('circ_id', choices=[])
+    circ_ids = TextAreaField('Please enter upto 10 Circ ids')

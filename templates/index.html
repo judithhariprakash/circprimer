@@ -2,10 +2,19 @@
 {% block title %}Primers for CircRNA{% endblock %}
 {% block content %}
 	<br><br><br><br>
-	<h1>Circ Primers</h1>
 	<form method="POST" action="/">
-    	{{ form.csrf_token }}
-    	{{ form.circ_id.label }} {{ form.circ_id }}
-    <input type="submit" value="Go">
-</form>
+		<div class="row">
+			<div class="col-md-2">{{ form.csrf_token }}</div>
+			<div class="col-md-4">
+		    	<h4>{{ form.circ_ids.label }}</h4>
+		    	{{ form.circ_ids(style="width: 200px;height: 210px;") }}
+		    </div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">{{ form.csrf_token }}</div>
+			<div class="col-md-4">
+				<input type="submit" value="Get Primers">
+			</div>
+		</div>
+	</form>
 {% endblock %}
