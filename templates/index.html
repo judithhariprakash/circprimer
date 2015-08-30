@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Primers for CircRNA{% endblock %}
+{% block content %}
+	<br><br><br><br>
+	<h1>Circ Primers</h1>
+	<form method="POST" action="/">
+    	{{ form.csrf_token }}
+    	{{ form.circ_id.label }} {{ form.circ_id }}
+    <input type="submit" value="Go">
+</form>
+{% endblock %}

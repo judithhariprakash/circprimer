@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+		<title>{% block title %}{% endblock %}</title>
+		<nav class="navbar navbar-default navbar-fixed-top">
+        	<div class="container-fluid">
+        		<div class="navbar-header">
+            		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            	<span class="sr-only">Toggle navigation</span>
+		            	<span class="icon-bar"></span>
+		            	<span class="icon-bar"></span>
+		            	<span class="icon-bar"></span>
+		            </button>
+            		<a class="navbar-brand" href="#">CircPrimer</a>
+         		</div>
+        		<div id="navbar" class="navbar-collapse collapse">        		
+		            <ul class="nav navbar-nav navbar-right">
+		            	<li class="active"><a href="#">Search Primers<span class="sr-only">(current)</span></a></li>
+		            </ul>
+        		</div>
+        	</div>
+    	</nav>
+	</head>
+	
+	<body>
+		{% block content %}
+		{% endblock %}
+	</body>
+</html>

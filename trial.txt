@@ -1,8 +1,0 @@
->hg19_ct_UserTrack_3545_hsa_circ_0014695_2 range=chr1:156237775-156237974 5'pad=0 3'pad=0 strand=- repeatMasking=no
-Seq2
->hg19_ct_UserTrack_3545_hsa_circ_0000146_2 range=chr1:161480624-161480823 5'pad=0 3'pad=0 strand=+ repeatMasking=no
-seq2AAAApositive
->hg19_ct_UserTrack_3545_hsa_circ_0014695_1 range=chr1:156237775-156237974 5'pad=0 3'pad=0 strand=- repeatMasking=no
-seq1negative
->hg19_ct_UserTrack_3545_hsa_circ_0000146_1 range=chr1:161480624-161480823 5'pad=0 3'pad=0 strand=+ repeatMasking=no
-seq1
